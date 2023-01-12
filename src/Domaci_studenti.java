@@ -27,7 +27,6 @@ public class Domaci_studenti {
                 listaPolozili.add(student);
             }
         }
-//        scanner.close();
         System.out.println("Lista svih studenata:");
 //        System.out.println(listaSviStudenti);
         for (Object o: listaSviStudenti){
