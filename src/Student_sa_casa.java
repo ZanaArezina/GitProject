@@ -1,4 +1,4 @@
-public class Student {
+public class Student_sa_casa {
 
     //polja
     String ime;
@@ -8,18 +8,17 @@ public class Student {
     //konstruktori - mehanizam za kreiranje objekata (uvek nosi isto ime koa klasa)
 
         String a = "Pera";
-    public  Student(){        //prazan konstruktor da bi kreirao Student() tamo u primeru za student
+    public Student_sa_casa(){        //prazan konstruktor da bi kreirao Student() tamo u primeru za student (uvek nosi isto ime koa klasa)
         System.out.println("Poziv  praznog konstruktora");
-
     }
-    public Student(String ime, String prezime, int godine) {
+    public Student_sa_casa(String ime, String prezime, int godine) {
         this.ime = ime;
         this.prezime = prezime;
         this.godine = godine;
         System.out.println("Poziv konstruktora sa 3 parametra");
     }
 
-    public Student(String ime, String prezime) {
+    public Student_sa_casa(String ime, String prezime) {
         this.ime = ime;
         this.prezime = prezime;
     }
