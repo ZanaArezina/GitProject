@@ -29,7 +29,7 @@ public class Domaci_studenti {
         }
         System.out.println("Lista svih studenata:");
 //        System.out.println(listaSviStudenti);
-        for (Object o: listaSviStudenti){
+        for (Object o : listaSviStudenti){
             System.out.println(o);
         }
         System.out.println("Lista studenata koji su polozili:");
